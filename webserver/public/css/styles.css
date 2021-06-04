@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: Arial, Helvetica;  
+}
+body{
+    color:#333333;
+    max-width: 650px;
+    margin:0 auto;
+    min-height:100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+.main-content{
+    flex-grow:1;
+}
+footer{
+    /* background-color:antiquewhite; */
+    margin-top:16px;
+    padding:16px 0;
+    color:#888888;
+    border-top:1px solid #eeeeee;
+}
+h1{
+    font-size: 64px;
+    margin-bottom:16px;
+}
+
+header{
+    margin-top:16px;
+    margin-bottom:48px;
+}
+header a{
+    text-decoration: none;
+    color:#aaaaaa;
+    margin-right: 16px;
+}
+
+.mypic{
+    width:250px;
+    height: 300px;;
+}
